@@ -1,0 +1,5 @@
+
+#!node :-This is called shebang. It tells that run this file in node. This is work only in windows in bash shell
+#!"C:\Program Files\nodejs\node.exe" :-This shebang gives error because you cannot use double quotes and space in path
+#!/usr/bin/env node :- This is work in all os
+Whenever we run any file just ./command in terminal then it run like bash ./command

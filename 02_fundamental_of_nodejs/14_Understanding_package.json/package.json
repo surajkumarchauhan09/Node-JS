@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "hi":"ls",
+        "dev":"node --watch app.js"
+    }
+}

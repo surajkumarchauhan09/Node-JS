@@ -1,0 +1,21 @@
+what npx does?
+  it search for file and execute it
+
+Step - 1
+   search for "package.json" file in current working directory
+   search for name key in package.json file
+   search for bin key :-here bin mean binary
+
+Step - 2
+   search for "node_modules\.bin\hello" in current working directory and execute this file
+
+Step - 3
+   search for "hello" file in global npm folder and execute it
+
+Step - 4
+   search for "hello" package in npx cache
+
+Step - 5
+   search for "hello" package on npm.com if available then it asked for downloading permission and also install it
+   or if not available on npm.com then it give error
+   it install package in this folder "C:\Users\Suraj Kumar\AppData\Local\npm-cache\_npx"
